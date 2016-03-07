@@ -29,13 +29,21 @@ bhaskara('a duck'); // 0, because a duck is not a number
 If installed globally, you can use bhaskara as a command line utility, for instance:
 
 ```
-$ bhaskara fourty-two
+$ bhaskara --locale en fourty-two
 $ 42
 ```
+
+**Available locales:** `en`, `pt`.
 
 ## Configuration
 
 The function takes three arguments with the format `bhaskara(number, [locale, [mapper]])`.
+
+### number
+
+Type: `string`
+
+The number in full to be converted.
 
 ### locale
 
