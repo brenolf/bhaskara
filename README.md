@@ -19,7 +19,7 @@ var bhaskara = require('bhaskara');
 bhaskara('zero'); // 0
 bhaskara('ten'); // 10
 bhaskara('one hundred eighty-nine'); // 189
-bhaskara('fourty-two million and one'); // 42000001
+bhaskara('forty-two million and one'); // 42000001
 bhaskara('twenty-two trillion ninety-two'); // 22000000000092
 bhaskara('a duck'); // 0, because a duck is not a number
 ```
@@ -29,7 +29,7 @@ bhaskara('a duck'); // 0, because a duck is not a number
 If installed globally, you can use bhaskara as a command line utility, for instance:
 
 ```
-$ bhaskara --locale en fourty-two
+$ bhaskara --locale en forty-two
 $ 42
 ```
 
