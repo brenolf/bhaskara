@@ -2,6 +2,9 @@
 
 > A library to convert numbers in full to actual numbers
 
+[![Build Status](https://travis-ci.org/brenolf/bhaskara.svg?branch=master)](https://travis-ci.org/brenolf/bhaskara)
+[![Code Climate](https://codeclimate.com/github/brenolf/bhaskara/badges/gpa.svg)](https://codeclimate.com/github/brenolf/bhaskara)
+
 Bhaskara is a small library that aims to convert written numbers in real integers for programming purposes, providing an easy interface for extending your own languages.
 
 ## Install
