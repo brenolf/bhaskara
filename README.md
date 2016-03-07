@@ -21,7 +21,7 @@ bhaskara('ten'); // 10
 bhaskara('one hundred eighty-nine'); // 189
 bhaskara('forty-two million and one'); // 42000001
 bhaskara('twenty-two trillion ninety-two'); // 22000000000092
-bhaskara('a duck'); // 0, because a duck is not a number
+bhaskara('a duck'); // NaN, because a duck is not a number
 ```
 
 ## CLI
@@ -47,9 +47,10 @@ The number in full to be converted.
 
 ### locale
 
-Type: `json`
+Type: `json` or `string`
+Default: `'en'`
 
-`locale` should be a json object with the main translations for the language. For instance, `"twenty": 20`.
+`locale` should be either a json object with the main translations for the language, for instance, `"twenty": 20`; or a string, representing a built-in language.
 
 ### mapper
 
