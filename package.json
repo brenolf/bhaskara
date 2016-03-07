@@ -1,0 +1,42 @@
+{
+  "name": "bhaskara",
+  "version": "1.0.0",
+  "description": "A library to convert numbers in full to actual numbers",
+  "main": "index.js",
+  "bin": {
+    "bhaskara": "./lib/bin.js"
+  },
+  "scripts": {
+    "test": "ava && npm run lint",
+    "lint": "./node_modules/eslint/bin/eslint.js index.js lib/**/*.js test/**/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brenolf/bhaskara.git"
+  },
+  "keywords": [
+    "nlp",
+    "conversion",
+    "number"
+  ],
+  "author": "Breno Lima de Freitas <brenolimadefreitas@gmail.com> (https://breno.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brenolf/bhaskara/issues"
+  },
+  "homepage": "https://github.com/brenolf/bhaskara",
+  "devDependencies": {
+    "ava": "^0.12.0",
+    "eslint": "^2.3.0",
+    "eslint-config-google": "^0.4.0"
+  },
+  "ava": {
+    "files": [
+      "test/**/*.test.js"
+    ],
+    "failFast": true
+  },
+  "dependencies": {
+    "array-flatten": "^2.0.0"
+  }
+}
